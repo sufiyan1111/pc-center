@@ -1,0 +1,221 @@
+
+.footer {
+    background: #064f88;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+}
+.footer .footer-content {
+  margin: 8px 0px;
+  font-size: 13px;
+  color: #fff;
+}
+.footer img {
+    max-width: 100%;
+}
+.footer h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 10px 0 0px;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 5px;
+    color: #fff;
+}
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:hover {
+    color: #FDD922;
+}
+
+.footer .contactBox a{
+    cursor:default;
+    margin-left: 5px;
+
+}
+.footer .contactBox li {
+  position: relative;
+  padding: 0 0 0 18px;
+  min-height: 30px;
+}
+.footer .contactBox li i {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: block;
+    text-align: center;
+    color: #ffe100;
+    font-size: 16px;
+}
+.footer .footerLinks {
+	padding-left:0;
+	padding-right:0;
+}
+
+.bg-gray {
+    background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+    box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.footer .social {
+    font-size: 13px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 5px;
+    color: #7F8C8D;
+    padding-top: 15px;
+    border-top: 1px solid #E6E6E6;
+}
+
+.social a {
+    float: left;
+    height: 32px;
+    line-height: 30px;
+    padding: 0;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    margin: 7px 7px 0 0;
+    color: #fff !important;
+    border-radius: 2px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.social a:hover {
+    color: #064f88 !important;
+    border:2px solid #ffe100;
+    background:#ffe100;
+}
+
+.footer-bottom {
+    background: #0e5d9a;
+}
+.footer-bottom .container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-bottom p {
+    padding-top: 6px;
+    font-size: 12px;
+    color:#fff;
+}
+.footer-bottom p a{
+    color:#fff;
+}
+.footer-bottom p a:hover{
+    color:#fff;
+}
+.paymentMethodImg img {
+    margin-left: 5px;
+}
+
+.newsletter_section {
+    background: #002c4e;
+    height: auto;
+    position: relative;
+    width: 100%;
+    border-top: 3px solid #022E4C;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    position:relative;
+}
+
+.newsletter_section .heading_section {
+    float: left;
+    background: url(/Images/system/msg.png) no-repeat scroll 35px 5px transparent;
+    background-size: 38px;
+    padding: 0 0 0 85px;
+}
+.newsletter_section .heading_section:before {
+    content:"";
+    width:2px;
+    height:100%;
+    background:#1476b2;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+.newsletter_section h3{
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    margin-right: 6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+
+.newsLatterBox{
+    float: right;
+    margin-top: 2px;
+}
+
+.newsLatterBox input{
+    margin: 0px;
+    border-radius: 3px 0px 0px 3px;
+    padding: 5px 15px;
+    display: inline-block;
+    width: 280px;
+    border-right: 0px;
+    height: 40px;
+    text-align: left;
+}
+
+.newsLatterBox .btn {
+    border-radius: 0px 3px 3px 0px;
+    display: inline-block;
+    height: 40px;
+    padding: 11px 10px;
+    color: #003B64;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-left: -3px;
+    box-shadow: none;
+    border: 1px solid #E2C304;
+    border-left: 0px;
+    margin-bottom: 4.5px;
+    background: #fff000;
+    background: -webkit-linear-gradient(top,#fff000 0,#FFDB00 100%);
+    background: -moz-linear-gradient(top,#fff000 0,#FFDB00 100%);
+}
+.newsLatterBox .btn:hover {
+	background: #FFDB00;
+    background: -webkit-linear-gradient(top,#FFDB00 0,#fff000 100%);
+    background: -moz-linear-gradient(top,#FFDB00 0,#fff000 100%);
+}
+
+#footer1_divNewsletterMsg {
+    color:#fff;
+    display:inline-block;
+}
+
+.align-left{
+    float: left;
+}
